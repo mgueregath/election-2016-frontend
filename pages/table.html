@@ -1,0 +1,82 @@
+<div clas="container" id="table">
+  <div class="col-xs-12 col-md-8 col-md-offset-2">
+    <h3>Resultados de la mesa <span id="table-descriptor"></span></h3>
+    <div class="alert alert-danger" role="alert" id="table-register-alert">Todos los campos deben ser completados.</div>
+    <div class="alert alert-warning" role="alert" id="table-register-joined">Esta mesa esta unida con otras, el registro del conteo de votos se encuentra en la mesa <span></span></div>
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 control-label">Carrasco</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="carrasco" placeholder="Número de votos para Carrasco">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 control-label">Gómez</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="gomez" placeholder="Número de votos para Gómez">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 control-label">Ilabaca</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="ilabaca" placeholder="Número de votos para Ilabaca">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 control-label">Sabat</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="sabat" placeholder="Número de votos para Sabat">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 control-label">Blancos</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="blanks" placeholder="Número de votos Blancos">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 control-label">Nulos</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="nulls" placeholder="Número de votos Nulos">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-12">
+          <button type="button" class="btn btn-default pull-right" id="register">Registrar votos</button>
+        </div>
+        <div class="col-sm-12">
+          <button type="button" class="btn btn-default pull-right" id="delete">Eliminar votos</button>
+        </div>
+      </div>
+    </form>
+    
+    <h4 id="joined">Está unida con</h4>
+    <div class="list-group">
+
+    </div>
+    
+    <button type="button" class="btn btn-default pull-right" id="show-modal" data-target="#modal" data-toggle="modal">Unir con otra mesa</button>
+  </div>
+  
+</div>
+
+<div class="modal fade" tabindex="-1" role="dialog" id="modal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Seleccionar mesa</h4>
+      </div>
+      <div class="modal-body">
+        <select class="form-control" id="select-table"></select>
+        <div class="alert alert-danger" role="alert">La mesa seleccionada tiene votos registrados. Elimínelos e intente nuevamente.</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" id="close-modal">Cerrar</button>
+        <button type="button" class="btn btn-primary" id="join">Unir</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<script type="application/javascript" src="js/app.table.js"></script>

@@ -1,0 +1,22 @@
+{
+  "sabat": {
+    "name": "Omar Sabat",
+    "image": "images/sabat.jpg",
+  },
+  "carrasco": {
+    "name": "Alan Carrasco",
+    "image": "images/sabat.jpg",
+  },
+  "ilabaca": {
+    "name": "Marcos Ilabaca",
+    "image": "images/sabat.jpg",
+  },
+  "gomez": {
+    "name": "Vicente Gomez",
+    "image": "images/sabat.jpg",
+  },
+  "blanks" : {
+  },
+  "nulls" : {
+  }
+}

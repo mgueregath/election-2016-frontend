@@ -1,0 +1,26 @@
+{
+  "sabat": {
+    "name": "Omar Sabat",
+    "image": "images/sabat.jpg"
+  },
+  "carrasco": {
+    "name": "Alan Carrasco",
+    "image": "images/carrasco.jpg"
+  },
+  "ilabaca": {
+    "name": "Marcos Ilabaca",
+    "image": "images/ilabaca.jpg"
+  },
+  "gomez": {
+    "name": "Vicente Gomez",
+    "image": "images/gomez.jpg"
+  },
+  "nulls": {
+    "name": "Votos nulos",
+    "image": "images/nulls.jpg"
+  },
+  "blanks": {
+    "name": "Votos blancos",
+    "image": "images/blanks.jpg"
+  }  
+}

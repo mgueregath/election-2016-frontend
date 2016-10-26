@@ -1,0 +1,75 @@
+p {
+  margin-bottom: 0;
+}
+
+.row {
+  margin-bottom: 60px;
+}
+
+.candidate {
+	margin-bottom: 40px;
+}
+
+#current-top img {
+  height: 250px;
+  width: 250px;
+}
+
+.name, .votes, .votes-percentage{
+  text-align: center;
+}
+
+#current-top .votes-percentage {
+  font-size: 30pt;
+}
+
+#current-top .name {
+  font-size: 25pt;
+}
+
+#current-top .votes {
+  font-size: 20pt; 
+}
+
+#others-candidates img {
+  height: 150px;
+  width: 150px;
+}
+
+#others-candidates .name {
+  font-size: 20pt;
+}
+
+#others-candidates .votes-percentage {
+  font-size: 25pt;
+}
+
+#others-candidates .votes {
+  font-size: 16pt; 
+}
+
+#nulls-and-blanks img {
+  height: 120px;
+  width: 120px;
+}
+
+#nulls-and-blanks .name {
+  font-size: 18pt;
+}
+
+#nulls-and-blanks .votes-percentage {
+  font-size: 23pt;
+}
+
+#nulls-and-blanks .votes {
+  font-size: 14pt;
+}
+
+.alert {
+  display: none;
+}
+
+.badge {
+    background-color: green;
+}
+
